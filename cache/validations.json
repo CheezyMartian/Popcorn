@@ -1,0 +1,47 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "Contracts/popcorn.sol:Popcorn": {
+        "src": "Contracts\\popcorn.sol:4",
+        "version": {
+          "withMetadata": "ab76dc2b2038f8f55af087b945e3f61034e5837c24a45fa034cd9a76b2304b76",
+          "withoutMetadata": "abed6f9c74dde02518a4c638757e16300bff70f3ddf3b07d881b649e09a2d769",
+          "linkedWithoutMetadata": "abed6f9c74dde02518a4c638757e16300bff70f3ddf3b07d881b649e09a2d769"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "state-variable-assignment",
+            "name": "var1",
+            "src": "Contracts\\popcorn.sol:5"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "var1",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "Popcorn",
+              "src": "Contracts\\popcorn.sol:5"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.16"
+      }
+    }
+  ]
+}
